@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  dns:
+    image: alpine:latest
+    volumes:
+      - ./app:/app
